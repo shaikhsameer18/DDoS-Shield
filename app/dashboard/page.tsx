@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -352,11 +353,13 @@ export default function Dashboard() {
               description="Interactive world map for region blocking"
             >
               <div className="aspect-video bg-blue-700 rounded-lg flex items-center justify-center mb-4">
-                {/* Adding the image here */}
-                <img
+                {/* Replacing the <img> with <Image /> from next/image */}
+                <Image
                   src="https://ft.syncfusion.com/featuretour/essential-js2/images/maps/javascript-maps-library-geojson-layer.png"
                   alt="Interactive World Map"
                   className="w-full h-full object-cover rounded-lg"
+                  layout="fill" // Ensures the image fills the container
+                  objectFit="cover" // Ensures the image maintains aspect ratio and covers the div
                 />
               </div>
               <div className="grid grid-cols-2 gap-4">
