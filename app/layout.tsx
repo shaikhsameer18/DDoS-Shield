@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'AI-Powered DDoS Protection',
+  title: 'DDoS Shield',
   description: 'Modern DDoS Protection for Cloud Architectures',
 }
 
