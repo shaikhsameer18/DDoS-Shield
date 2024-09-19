@@ -36,7 +36,7 @@ export default function Home() {
               <Button size="lg" className="bg-green-500 text-white hover:bg-green-400">Get Started</Button>
             </Link>
             <Link href="/how-it-works">
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">How It Works</Button>
+              <Button size="lg" className="text-white bg-gray-700 border-white hover:bg-white/10">How It Works</Button>
             </Link>
           </div>
         </motion.div>
